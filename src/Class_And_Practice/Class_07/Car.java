@@ -7,5 +7,7 @@ public class Car extends Vehicle {
         System.out.println("Starting Car");
     }
 
-
+    public void brakeCar() {
+        System.out.println("Braking Car");
+    }
 }
