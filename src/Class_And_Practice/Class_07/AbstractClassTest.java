@@ -6,5 +6,10 @@ public class AbstractClassTest {
         myCar.start();
         myCar.brakeCar();
         myCar.stop();
+
+        Vehicle myVehicle = new Car();
+        myVehicle.start();
+        // myVehicle.brakeCar(); //Compile time error.
+        myVehicle.stop();
     }
 }
